@@ -4,7 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+
 import { AboutPage } from '../pages/about/about';
 import { MenuPage } from '../pages/menu/menu';
 import { ContactPage } from '../pages/contact/contact';
@@ -27,8 +27,7 @@ export class MyApp {
       { title: 'Home', icon: 'home', component: HomePage },
       { title: 'About Us', icon: 'information-circle', component: AboutPage },
       { title: 'Menu', icon: 'list-box', component: MenuPage },
-      { title: 'Contact Us', icon: 'contact', component: ContactPage },
-      { title: 'List', component: ListPage }
+      { title: 'Contact Us', icon: 'contact', component: ContactPage }
     ];
 
   }
